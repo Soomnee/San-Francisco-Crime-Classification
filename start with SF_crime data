@@ -13,22 +13,17 @@ os.getcwd()
 ---
 ## ㅠ.ㅠ 오류남
 <csv 파일불러올때 오류>
-
 data = pd.read_csv("D:\\개개비\\multipleChoiceResponses.csv")
  error message : 
 OSError: Initializing from file failed
 
 => 해결방법
-
 1. engin = 'python'
 data = pd.read_csv("D:\\개개비\\multipleChoiceResponses.csv", engine='python')
-
 2. 경로 or 파일명 다 영어로
 data = pd.read_csv("D:\\multipleChoiceResponses.csv")
-
 ---
 ### engine을 추가하고도 오류가 남, PermissionError: [Errno 13] Permission denied
-
 오류1 :
 파이썬에서 파일을 오픈할 때 생겼다.
 해결 : 
