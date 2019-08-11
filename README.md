@@ -17,3 +17,10 @@ Participating in Kaggle competition
 7. Address - the approximate street address of the crime incident 
 8. X - Longitude
 9. Y - Latitude
+
+
+
+-------
+Connect address :
+%%html
+<script src="https://livebook.dsschool.co.kr/alex/loader.js"></script>
