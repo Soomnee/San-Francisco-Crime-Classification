@@ -6,3 +6,14 @@ Participating in Kaggle competition
 
 - The dataset is so big having 87K collumns for training data;
 - We can deal with GPS data including address, latitude and longitude.
+
+**Data fields**
+1. Dates - timestamp of the crime incident
+2. Category - category of the crime incident (only in train.csv). This is the target variable you are going to predict.
+3. Descript - detailed description of the crime incident (only in train.csv)
+4. DayOfWeek - the day of the week
+5. PdDistrict - name of the Police Department District
+6. Resolution - how the crime incident was resolved (only in train.csv)
+7. Address - the approximate street address of the crime incident 
+8. X - Longitude
+9. Y - Latitude
