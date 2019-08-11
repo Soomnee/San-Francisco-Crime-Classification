@@ -22,5 +22,6 @@ Participating in Kaggle competition
 
 -------
 Connect address :
+
 %%html
 <script src="https://livebook.dsschool.co.kr/alex/loader.js"></script>
