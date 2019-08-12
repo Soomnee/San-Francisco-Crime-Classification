@@ -24,6 +24,12 @@ train.head()
 
 ###data collumn 
 - descript col : 범죄 카테고리에 대한 부연설명 but train data에만 존재, test data에 없음
+      -> 참고용으로 쓰지 머신러닝 성능 향상에는 부족할 듯..
+- Pd district : 관할 경찰서
+- resolution : 현재 해결 여부, 얘도 test data에는 없음, 참고자료 정도 용도.
+- address : 수학적, 개발적 지식 뿐만 아니라 domain knowledge 굉장히 중요해, 미국의 경우 address에서 얻을 수 있는 정보가 많다!
+       -> 사전조사가 분석에 도움이 될 수 있음
+
 ---
 ## ㅠ.ㅠ 오류남
 <csv 파일불러올때 오류>
