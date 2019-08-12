@@ -21,6 +21,9 @@ print(train.shape)
 train.head()
 >> (878049, 9)
 
+
+###data collumn 
+- descript col : 범죄 카테고리에 대한 부연설명 but train data에만 존재, test data에 없음
 ---
 ## ㅠ.ㅠ 오류남
 <csv 파일불러올때 오류>
